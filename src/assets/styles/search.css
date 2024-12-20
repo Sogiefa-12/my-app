@@ -1,0 +1,43 @@
+.recipe-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recipe-result {
+    text-align: center;
+    flex: 1 1 200px;
+  }
+
+  .recipe-result div {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin: 30px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 10px 20px;
+  
+  }
+
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width:768px) {
+    .recipe-results{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .recipe-result {
+      flex-basis: 100%;
+    }
+  }
